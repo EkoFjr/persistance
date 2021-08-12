@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01FFEA"
+    android:orientation="vertical"
+    tools:context=".Ekstenal">
+
+    <Button
+        android:id="@+id/buatfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buat_file" />
+
+    <Button
+        android:id="@+id/ubahfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ubah_file" />
+
+    <Button
+        android:id="@+id/bacafile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baca_file" />
+
+    <Button
+        android:id="@+id/hapusfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hapus_file" />
+
+    <TextView
+        android:id="@+id/textbaca"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/hasil_baca_text1"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColorHint="#000000"/>
+
+</LinearLayout>

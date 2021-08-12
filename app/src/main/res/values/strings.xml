@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Data persistance</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="eksternal_storage">Eksternal Storage</string>
+    <string name="buat_file">Buat File</string>
+    <string name="ubah_file">Ubah File</string>
+    <string name="baca_file">Baca File</string>
+    <string name="hapus_file">Hapus File</string>
+    <string name="hasil_baca_text">Hasil Baca Text</string>
+    <string name="hasil_baca_text1">Hasil Baca Text</string>
+</resources>
